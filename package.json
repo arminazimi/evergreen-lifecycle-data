@@ -1,0 +1,23 @@
+{
+  "name": "evergreen-lifecycle-data",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Open Evergreen lifecycle dataset: evidence-backed deprecation and end-of-life rules by ecosystem.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arminazimi/evergreen-lifecycle-data.git"
+  },
+  "homepage": "https://github.com/arminazimi/evergreen-lifecycle-data",
+  "bugs": "https://github.com/arminazimi/evergreen/issues",
+  "scripts": {
+    "check": "node scripts/validate.mjs",
+    "validate": "node scripts/validate.mjs"
+  },
+  "dependencies": {
+    "ajv": "^8.20.0"
+  }
+}
